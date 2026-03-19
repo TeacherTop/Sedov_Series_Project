@@ -1,0 +1,51 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Jupyter Notebook ===
+.ipynb_checkpoints
+
+# === CatBoost ===
+catboost_info/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Результаты (большие файлы) ===
+results/*.csv
+results/*.html
+results/figures/*.html
+
+# === Данные (если большие) ===
+# *.tsf
+# *.csv
+# data/
+
+# === Логи ===
+*.log
