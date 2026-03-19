@@ -49,3 +49,5 @@ results/figures/*.html
 
 # === Логи ===
 *.log
+
+m4_monthly_dataset.tsf
